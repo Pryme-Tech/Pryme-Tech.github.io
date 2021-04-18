@@ -2,7 +2,7 @@
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("04 04, 2021 0:0:0").getTime();
+var countDownDate = new Date("04 04, 2022 0:0:0").getTime();
 
 // Update the count down every 1 second
 function chek (){
