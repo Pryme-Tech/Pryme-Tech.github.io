@@ -22,11 +22,11 @@ function chek (){
 setTimeout(chek);
 
   // Display the result in the element with id="demo"
-  document.getElementById("time").innerHTML = days + " days " + hours + " hours "
+  document.getElementById("demo").innerHTML = days + " days " + hours + " hours "
   + minutes + " minutes " + seconds + " seconds ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
-    document.getElementById("time").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }
